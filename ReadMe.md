@@ -10,6 +10,14 @@ The website is deployed on **Vercel**, using clean **HTML and CSS**.
 
 ---
 
+
+## 🔗 Live Demo
+
+🌍 **Visit my portfolio here:**  
+👉 [https://daniel-torres-portfolio.vercel.app/](https://daniel-torres-portfolio.vercel.app/)
+
+---
+
 ## 🚀 Technologies Used
 
 - **HTML5** → semantic structure of the site  
@@ -49,14 +57,4 @@ The website is deployed on **Vercel**, using clean **HTML and CSS**.
 ## 🌐 Deployment on Vercel
 
 This portfolio is hosted on **Vercel**.  
-To run it locally:
 
-```bash
-# Clone this repository
-git clone https://github.com/DeathbatO13/Portafolio.git
-
-# Navigate to the project directory
-cd Portafolio/src
-
-# Open the main page
-start index.html
