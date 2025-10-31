@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Daniel Alejandro Torres Abella</h1>
+                <p class="tagline">Electronic Engineer | Software Developer | Expert in Java/Spring</p>
+                <p class="bio">
+                    Junior Java Developer with strong technical foundations in software development, backend systems, and
+                    API integration. Skilled in Java, Spring Boot, and SQL, with experience developing full-stack solutions that
+                    connect hardware and software.
+                </p>
+                <a href="https://github.com/DeathbatO13" target="_blank" class="btn btn-github-header">
+                    <i class="fab fa-github"></i> My GitHub Profile
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="proyectos" class="projects-section">
+        <div class="container">
+            <h2></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('img/InvImg.png');"></div>
+                    <h3>Inventory system for electronics stores</h3>
+                    <p>A desktop application developed in JavaFX with a MySQL connection, 
+                        allowing you to manage products, suppliers, sales, and analytical reports. 
+                        It includes stock control, transaction logging, report generation in TXT and 
+                        CSV formats, and a graphical display of recent sales.</p>
+                    <div class="project-tags">
+                        <span>Java</span><span>MySQL</span><span>JavaFX</span>
+                    </div>
+                    <a href="https://github.com/DeathbatO13/Sistema-de-Inventarios-para-Tienda-Electronica" target="_blank" class="btn btn-project-github">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('img/Pr2.png');"></div>
+                    <h3>Access control system with C++ and Arduino</h3>
+                    <p>Implements a basic access control system using an Arduino Mega 2560. 
+                        The user enters a password through a 4x4 matrix keypad, and messages are displayed on a 16x2 I²C LCD.</p>
+                    <div class="project-tags">
+                        <span>C++</span><span>Arduino</span>
+                    </div>
+                    <a href="https://github.com/DeathbatO13/Access-control-system-with-C-Arduino" target="_blank" class="btn btn-project-github">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('img/Pr3.png');"></div>
+                    <h3>Minesweeper with Java</h3>
+                    <p>Classic Minesweeper game, with 3 preset difficulties and a custom mode</p>
+                    <div class="project-tags">
+                        <span>Java</span><span>Swing</span>
+                    </div>
+                    <a href="https://github.com/DeathbatO13/Buscaminas-con-Java" target="_blank" class="btn btn-project-github">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2>Let's Talk</h2>
+            <p>Got a great idea or a collaboration opportunity? Don't hesitate to reach out!</p>
+            <a href="mailto:danielalejo99@gmail.com" class="btn btn-contact">Send Email <i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Daniel Alejandro Torres Abella. Developed with passion, deployed on Vercel.</p>
+        </div>
+    </footer>
+</body>
+</html>
