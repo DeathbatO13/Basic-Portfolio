@@ -1,62 +1,62 @@
-# 💼 Portafolio Profesional — Daniel Torres 
+# 💼 Professional Portfolio — Daniel Torres 
 
 
-## 🧑‍💻 Descripción
+## 🧑‍💻 Description
 
-Este proyecto es mi **portafolio profesional**, desarrollado para presentar mis habilidades como **Desarrollador de Software Junior**, con un enfoque en **Java, Spring Boot y desarrollo backend**.  
-Incluye una presentación personal, una galería de proyectos destacados y un formulario de contacto simple, todo optimizado para una visualización moderna y responsiva.
+This project is my **professional portfolio**, designed to showcase my skills as a **Junior Software Developer**, with a focus on **Java, Spring Boot, and backend development**.  
+It includes a personal introduction, a gallery of featured projects, and a simple contact section — all built with a modern, responsive layout.
 
-El sitio está desplegado en **Vercel**, con estructura HTML, CSS puro y un diseño adaptativo para dispositivos móviles.
-
----
-
-## 🚀 Tecnologías utilizadas
-
-- **HTML5** → estructura semántica del sitio.  
-- **CSS3** → estilos personalizados con variables, animaciones y diseño responsive.  
-- **Font Awesome** → íconos profesionales para botones y enlaces.  
-- **Vercel** → despliegue del sitio estático.  
+The website is deployed on **Vercel**, using clean **HTML and CSS**.
 
 ---
 
-## 🧱 Estructura del proyecto
+## 🚀 Technologies Used
+
+- **HTML5** → semantic structure of the site  
+- **CSS3** → custom styles, variables, and responsive design  
+- **Font Awesome** → icons for buttons and links  
+- **Vercel** → static site deployment  
+
+---
+
+## 🧱 Project Structure
 
     Portafolio/
     │
     ├── images/
-    │ └── Start.png # Imagen de portada para el README
+    │ └── Start.png # Preview image for README
     │
     ├── src/
-    │ ├── img/ # Imágenes usadas dentro del sitio
+    │ ├── img/ # Images used in the website
     │ │ ├── Fondo.jpg
     │ │ ├── InvImg.png
     │ │ ├── Pr2.png
     │ │ └── Pr3.png
-    │ ├── index.html # Página principal
-    │ └── style.css # Estilos del sitio
+    │ ├── index.html # Main HTML file
+    │ └── style.css # Stylesheet
     │
     └── ReadMe.md
 
 
 ---
 
-## 🖼️ Captura del sitio
+## 🖼️ Site Preview
 
-![Vista previa del portafolio en ejecución](./images/Start.png)
+![Portfolio live preview](./images/Start.png)
 
 ---
 
-## 🌐 Despliegue en Vercel
+## 🌐 Deployment on Vercel
 
-El proyecto se encuentra desplegado en Vercel.  
-Para ejecutar el sitio localmente:
+This portfolio is hosted on **Vercel**.  
+To run it locally:
 
 ```bash
-# Clona este repositorio
+# Clone this repository
 git clone https://github.com/DeathbatO13/Portafolio.git
 
-# Entra al directorio
+# Navigate to the project directory
 cd Portafolio/src
 
-# Abre el archivo principal
+# Open the main page
 start index.html
